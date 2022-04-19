@@ -1,0 +1,34 @@
+{
+  "name": "express-sql",
+  "version": "1.0.0",
+  "description": "Learn-ExpressSQL",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/afandi154/express-sql.git"
+  },
+  "keywords": [
+    "Express",
+    "SQL"
+  ],
+  "author": "Mahfudh Afandi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/afandi154/express-sql/issues"
+  },
+  "homepage": "https://github.com/afandi154/express-sql#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.4",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.19.0",
+    "styled-components": "^5.3.5"
+  }
+}
